@@ -52,6 +52,7 @@
   background-color: #FCF3CF;
   border-radius: 5px;
   margin: 30px 15px;
+  color: ##5DADE2;
 }
 
 .profile-wrapper:nth-of-type(odd) {
@@ -87,10 +88,6 @@
   text-align: left;
 }
 
-
-
-/*
-ul li.active {
-  background: white;
-  color: blue;
-} */
+a:hover {
+  color: #087A48;
+}
