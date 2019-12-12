@@ -7,8 +7,11 @@ const Profile = ({ person }) => (
         <img className="profile-pic" src={person.imgPath} alt="profile pic" />
         <h1 className="profile-heading">{person.firstName} {person.lastName}</h1>
       </div>
-    <ul className="profile-repositories">
-        </ul>
+      <ul className="profile-repositories">
+        {person.repositories.map((item) =>
+          <li><a href={item.url} target="_blank">{item.name}</a></li>
+        )}
+      </ul>
   </div>
 );
 
