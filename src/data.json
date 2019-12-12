@@ -1,0 +1,62 @@
+[
+  {
+    "imgPath": "https://avatars3.githubusercontent.com/u/55298846?s=460&v=4",
+    "firstName": "Michelle",
+    "lastName": "Duhaime",
+    "userName": "michelle-yj",
+    "repositories": [
+      {
+        "url": "https://github.com/michelle-yj/first-react-app",
+        "name": "first-react-app"
+      },
+      {
+        "url": "https://github.com/michelle-yj/hello-world",
+        "name": "hello-world"
+      },
+      {
+        "url": "https://github.com/michelle-yj/Rainbow-Song",
+        "name": "rainbow-song"
+      }
+    ]
+  },
+  {
+    "imgPath": "https://avatars3.githubusercontent.com/u/50599564?s=460&v=4",
+    "firstName": "Marmie",
+    "lastName": "Lemon",
+    "userName": "marmielemon",
+    "repositories": [
+      {
+        "url": "https://github.com/marmielemon/my-first-react-app",
+        "name": "my-first-react-app"
+      }
+    ]
+  },
+  {
+    "imgPath": "https://avatars1.githubusercontent.com/u/1933657?s=460&v=4",
+    "firstName": "Tony",
+    "lastName": "Mamo",
+    "userName": "tonymamo",
+    "repositories": [
+      {
+        "url": "https://github.com/tonymamo/cra-test",
+        "name": "cra-test"
+      },
+      {
+        "url": "https://github.com/tonymamo/minesweeper",
+        "name": "minesweeper"
+      },
+      {
+        "url": "https://github.com/tonymamo/next-redux-wrapper",
+        "name": "next-redux-wrapper"
+      },
+      {
+        "url": "https://github.com/tonymamo/react-test",
+        "name": "react-test"
+      },
+      {
+        "url": "https://github.com/tonymamo/githubNotetaker",
+        "name": "githubNotetaker"
+      }
+    ]
+  }
+]
