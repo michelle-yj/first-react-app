@@ -1,8 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Profile from './profile';
-
+import Profile from './profile/profile';
 import data from './data.json';
 
 function App() {
