@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #D3EDCB;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.profiles {
+  display: flex;
+  flex-direction: row;
+  color: #34495E;
+  width: 75%;
+}
+
+.profile-wrapper {
+  flex: 1;
+  justify-content: center;
+  background-color: #FCF3CF;
+  border-radius: 5px;
+  margin: 10px 15px;
+  color: ##5DADE2;
+}
+
+.profile-wrapper:nth-of-type(odd) {
+  background: #FCD5AB;
+}
+
+.profile-wrapper:nth-of-type(even) {
+  background: #FFFDDE;
+}
+
+.profile-pic {
+  width: 72px;
+  height: 72px;
+  border-radius: 50px;
+  border: 1px solid #dddddd;
+  margin-top: 20px;
+}
+
+.profile-heading {
+  font-size: 28px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.profile-header {
+  color: #5D6D7E;
+  text-align: center;
+}
+
+.profile-repositories {
+  margin-left: 20px;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  color: #616A6B;
+}
+
+a:hover {
+  color: #7FB3D5;
+  background-color: #EAECEE;
+}
+
+li {
+  text-decoration: none;
+  color: #5D6D7E;
+}
