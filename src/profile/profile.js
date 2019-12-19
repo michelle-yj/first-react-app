@@ -1,8 +1,7 @@
 import React from 'react';
 import './profile.css';
-import Button from '../components/button';
-import Header from '../components/header';
-import '../components/header.css'
+import Button from '../components/Button';
+import Header from '../components/Header';
 
 const createName = (person) => {
     return `${person.firstName} ${person.lastName}`;

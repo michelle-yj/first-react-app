@@ -3,10 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import Profile from './profile/profile';
 import data from './data.json';
-import Button from '././components/button';
-import '././components/button.css';
-import Header from '././components/header';
-import '././components/header.css';
+import Button from './components/Button';
+import Header from './components/Header';
 
 function App() {
   return (

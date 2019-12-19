@@ -1,6 +1,6 @@
 .profiles {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   color: #34495E;
   width: 75%;
 }
@@ -8,12 +8,6 @@
 @media screen and (min-width: 600px) {
   .profiles {
     flex-direction: row;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .profiles {
-      flex-direction: column;
   }
 }
 
