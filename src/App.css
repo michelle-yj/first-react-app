@@ -14,13 +14,12 @@
 }
 
 .App-header {
-  background-color: #808000;
+  background-color: #9DC1B5;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
@@ -35,59 +34,4 @@
   to {
     transform: rotate(360deg);
   }
-}
-
-.profiles {
-  display: flex;
-  flex-direction: row;
-  color: #34495E;
-  width: 75%;
-}
-
-.profile-wrapper {
-  /* display: flex; */
-  flex: 1;
-  /* align-items: center; */
-  justify-content: center;
-  background-color: #FCF3CF;
-  border-radius: 5px;
-  margin: 30px 15px;
-  color: ##5DADE2;
-}
-
-.profile-wrapper:nth-of-type(odd) {
-  background: #FFA07A;
-}
-
-.profile-wrapper:nth-of-type(even) {
-  background: #F8C471;
-}
-
-.profile-pic {
-  width: 72px;
-  height: 72px;
-  border-radius: 50px;
-  border: 1px solid #dddddd;
-  margin-top: 20px;
-  /* align-items: center; */
-}
-
-.profile-heading {
-  font-size: 28px;
-  text-align: center;
-  margin-top: 10px;
-}
-
-.profile-header {
-  color: #5D6D7E;
-  text-align: center;
-}
-
-.profile-repositories {
-  margin-left: 20px;
-  text-align: left;
-}
-
-a:hover {
-  color: #087A48;
 }
