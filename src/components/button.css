@@ -1,0 +1,31 @@
+.nav-buttons {
+  margin: 30px 0;
+}
+
+.button {
+  background-color: #FDCAB4;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 10px;
+  /* TRBL helpful acronym top, right bottom, left */
+}
+
+.button-lightcoral {
+  background-color:  #FDCAB4;
+}
+
+.button-lightyellow {
+  background-color: #FDF4A5;
+}
+
+.button-tan {
+  background-color: #D2B48C;
+}
+
+.button-small {
+  font-size: 16px;
+}
+
+.button-large {
+  font-size: 24px;
+}
