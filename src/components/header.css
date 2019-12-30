@@ -1,5 +1,21 @@
 .header {
   font-size: 28px;
   text-align: center;
-  margin-top: 5px;
+  letter-spacing: 2px;
+}
+
+@media screen and (min-width: 700px) {
+  .header {
+    font-size: 32px;
+    letter-spacing: 4px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .header {
+    font-size: 40px;
+    letter-spacing: 6px;
+  }
 }
