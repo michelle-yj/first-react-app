@@ -3,11 +3,12 @@
 }
 
 .button {
-  background-color: #FDCAB4;
+  background-color: #9DC1B5;
+  letter-spacing: 3px;
   border-radius: 5px;
   padding: 5px 10px;
   margin: 10px;
-  /* TRBL helpful acronym top, right bottom, left */
+  font-family: 'JosefinSlab', 'Courier New';
 }
 
 .button-lightcoral {
@@ -23,9 +24,13 @@
 }
 
 .button-small {
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .button-large {
   font-size: 24px;
+}
+
+.button-rounded {
+  border-radius: 12px;
 }

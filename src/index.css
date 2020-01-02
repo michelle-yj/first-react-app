@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'JosefinSlab';
+  src: local('JosefinSlab'), url(./assets/JosefinSlab-Light.ttf) format('ttf');
+}
+
 body {
   margin: 0;
   font-family: 'Old Standard TT', serif;
