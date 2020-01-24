@@ -7,15 +7,18 @@
     "repositories": [
       {
         "url": "https://github.com/michelle-yj/first-react-app",
-        "name": "first-react-app"
+        "name": "first-react-app",
+        "stars": 1
       },
       {
         "url": "https://github.com/michelle-yj/hello-world",
-        "name": "hello-world"
+        "name": "hello-world",
+        "stars": 2
       },
       {
         "url": "https://github.com/michelle-yj/Rainbow-Song",
-        "name": "rainbow-song"
+        "name": "rainbow-song",
+        "stars": 3
       }
     ]
   },
@@ -27,7 +30,8 @@
     "repositories": [
       {
         "url": "https://github.com/marmielemon/my-first-react-app",
-        "name": "my-first-react-app"
+        "name": "my-first-react-app",
+        "stars": 4
       }
     ]
   },
@@ -39,23 +43,28 @@
     "repositories": [
       {
         "url": "https://github.com/tonymamo/cra-test",
-        "name": "cra-test"
+        "name": "cra-test",
+        "stars": 5
       },
       {
         "url": "https://github.com/tonymamo/minesweeper",
-        "name": "minesweeper"
+        "name": "minesweeper",
+        "stars": 6
       },
       {
         "url": "https://github.com/tonymamo/next-redux-wrapper",
-        "name": "next-redux-wrapper"
+        "name": "next-redux-wrapper",
+        "stars": 7
       },
       {
         "url": "https://github.com/tonymamo/react-test",
-        "name": "react-test"
+        "name": "react-test",
+        "stars": 8
       },
       {
         "url": "https://github.com/tonymamo/githubNotetaker",
-        "name": "githubNotetaker"
+        "name": "githubNotetaker",
+        "stars": 9
       }
     ]
   }
