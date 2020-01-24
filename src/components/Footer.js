@@ -1,20 +1,22 @@
 import React from 'react';
 import styled from 'styled-components';
+import { primaryGrey, secondaryGrey } from '../colors';
 import { baseSpacer, doubleSpacer, quadrupleSpacer } from '../sizes';
 
 const StyledFooter = styled.div`
     margin-top: ${quadrupleSpacer};
     height: ${quadrupleSpacer};
-    background-color: ${props => props.backgroundColor ? props.backgroundColor : 'yellow'};
-    color: ${props => props.color ? props.color : 'red'};
+    background-color: ${primaryGrey};
+    color: ${secondaryGrey};
     letter-spacing: 2px;
     font-size: 12px;
-    padding-top: ${baseSpacer};
+    padding-top: ${doubleSpacer};
     padding-right: ${doubleSpacer};
     text-align: right;
+    width: calc(100% - ${baseSpacer});
 `;
-const Footer = ( {children, color, backgroundColor} ) => (
-  <StyledFooter backgroundColor={backgroundColor} color={color}>{children}</StyledFooter>
+const Footer = () => (
+  <StyledFooter>Copyright &copy; {new Date().getFullYear()}</StyledFooter>
 );
 
 export default Footer;

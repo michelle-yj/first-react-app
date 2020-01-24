@@ -1,9 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
 import { baseSpacer, doubleSpacer, quadrupleSpacer } from '../sizes';
+import { secondaryGrey } from '../colors';
 
 const StyledH1 = styled.h1`
-    color: ${props => props.color ? props.color : 'yellow'};
+    text-decoration: none;
+    color: ${secondaryGrey};
     font-size: ${quadrupleSpacer};
     font-family: 'Montserrat', sans-serif;
     text-align: center;

@@ -1,16 +1,18 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 import logo from '../logo.svg';
+import { primaryGrey } from '../colors';
+import { baseSpacer } from '../sizes';
 
 const StyledNavbar = styled.nav`
   display: flex;
   position: sticky;
   top: 0px;
   opacity: 0.8;
-  width: 100%;
+  width: calc(100% - ${baseSpacer});
   height: 100px;
-  background-color: ${props => props.backgroundColor ? props.backgroundColor : 'yellow'};
-  font-family: 'Quicksand', 'Montserrat';
+  background-color: ${primaryGrey};
 `;
 
 const StyledLogo = styled.img`
@@ -37,7 +39,9 @@ const StyledLogo = styled.img`
 
 const Navbar = ({ backgroundColor }) => (
   <StyledNavbar backgroundColor={backgroundColor}>
-      <StyledLogo src={logo}/>
+      <Link to="/">
+          <StyledLogo src={logo} alt="logo" />
+      </Link>
   </StyledNavbar>
 );
 
